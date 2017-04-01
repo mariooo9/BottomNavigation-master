@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "79792070235",
+    "firebase_url": "https://iiit-connect.firebaseio.com",
+    "project_id": "iiit-connect",
+    "storage_bucket": "iiit-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79792070235:android:8a583f73ddc12fef",
+        "android_client_info": {
+          "package_name": "com.truiton.bottomnavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79792070235-do92icchrl0vt99rbh33fb3rr4eiqv3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCT7ulEvcCWUcwcLhbkt-c5YAEqaw0edM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

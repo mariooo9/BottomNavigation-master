@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="50dp"
+                android:text="  Monday"
+                />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mon9to10"
+                />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mon10to11"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mon11to12"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mon12to1"/>
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/mon3to6" />
+        </LinearLayout>
+
+        <ImageView
+        android:layout_width="370dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/line_thin"
+        android:id="@+id/imageView1"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text=" Tuesday"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tue9to10"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.82" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tue10to11"/>
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tue11to12"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tue12to1"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tue3to6"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/line_thin"
+        android:id="@+id/imageView2"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="Wednesday"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/wed9to10"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/wed10to11"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/wed11to12"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/wed12to1"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/wed3to6"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/line_thin"
+        android:id="@+id/imageView3"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="  Thursday"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/thu9to10"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/thu10to11"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/thu11to12"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/thu12to1"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/thu3to6"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/line_thin"
+        android:id="@+id/imageView4"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="  Friday"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fri9to10"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fri10to11"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fri11to12"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fri12to1"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fri3to6"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/line_thin"
+        android:id="@+id/imageView5"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="  Saturday"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sat9to10"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sat10to11"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sat11to12"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sat12to1"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sat3to6"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/line_thin"
+        android:id="@+id/imageView6"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="  Sunday"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sun9to10"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sun10to11"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sun11to12"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sun12to1"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sun3to6"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

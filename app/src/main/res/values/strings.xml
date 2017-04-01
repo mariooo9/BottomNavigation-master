@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">IIIT Connect v2.0</string>
+    <string name="item_1">Time Table</string>
+    <string name="item_2">Attendance</string>
+    <string name="item_3">Calculator</string>
+    <string name="item_4">Profile</string>
+    <string name="item_5">Logout</string>
+    <string name="hint_Username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered! Login Me.</string>
+    <string name="Subject">Subject</string>
+    <string name="Lab">Lab</string>
+
+
+</resources>
